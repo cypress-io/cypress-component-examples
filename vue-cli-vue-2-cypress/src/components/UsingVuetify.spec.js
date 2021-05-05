@@ -7,9 +7,6 @@ function mountWithVuetify(Comp, options = {}) {
   return mount(Comp, {
     vuetify,
     ...options,
-    attrs: {
-      // class: 'v-application',
-    },
     propsData: {
       ...options.propsData,
     }
@@ -17,7 +14,12 @@ function mountWithVuetify(Comp, options = {}) {
 }
 
 it('renders a message', () => {
+  const root = document.getElementById('__cy_root')
+  // Vuetify styling
+  root.classList.add('v-application')
+
   cy.viewport(500, 800)
+
   mountWithVuetify(UsingVuetify, {
     propsData: {
       cafeTitle: 'Cafe Badilico'
