@@ -5,9 +5,6 @@
   "dependencies": {
     "@cypress/react": "^5.4.2",
     "@cypress/webpack-dev-server": "^1.1.6",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "cypress": "^7.2.0",
     "html-webpack-plugin": "^4.5.2",
     "react": "^17.0.2",
@@ -23,8 +20,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
@@ -38,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-cypress": "^2.11.3"
   }
 }
