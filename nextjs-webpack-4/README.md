@@ -1,3 +1,5 @@
+> This repository is no longer maintained. Please visit the new [Cypress Component Testing Examples](https://github.com/cypress-io/cypress-component-testing-examples) repository for the latest Next.js examples.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

@@ -1,3 +1,5 @@
+> This repository is no longer maintained. Please visit the new [Cypress Component Testing Examples](https://github.com/cypress-io/cypress-component-testing-examples) repository for the latest Vite and React examples.
+
 ## Cypress React 3 React
 
 Vite template with React 3 and Cypress component testing. Clone the repository and run `npm install` to install the dependencies.

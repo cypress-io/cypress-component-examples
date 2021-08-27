@@ -1,3 +1,5 @@
+> This repository is no longer maintained. Please visit the new [Cypress Component Testing Examples](https://github.com/cypress-io/cypress-component-testing-examples) repository for the latest examples.
+
 This repository contains a number of projects configured with Cypress component testing.
 
 You can use any of them by cloning the repository, going into the directory and running:
