@@ -1,9 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import axios from 'axios'
 
 function App() {
   const [count, setCount] = useState(0)
+  useEffect(async () => {
+    await axios.get('/users')
+    await axios.get('/groups/1')
+    await axios.get('/groups')
+  })
 
   return (
     <div className="App">

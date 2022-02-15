@@ -9,7 +9,8 @@
   "dependencies": {
     "@cypress/react": "^5.4.1",
     "@cypress/vite-dev-server": "^1.2.5",
-    "cypress": "^7.2.0",
+    "axios": "^0.26.0",
+    "cypress": "^9.5.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
